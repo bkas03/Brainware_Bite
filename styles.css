@@ -1,0 +1,336 @@
+body {
+    /* background-image: url(bwu.jpg); */
+    
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #92b1e3;
+    color: #333;
+}
+
+header {
+/* Replace 'your-image-path.jpg' with the actual path or URL of your image */
+    background-size: cover;
+    object-fit: cover ; /* Ensures the image covers the entire header without stretching */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    overflow: hidden; /* Clear floats */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #646b71; /* Dark background for nav bar */
+    overflow: hidden; /* Clear floats */
+    padding: 10px 20px;
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center alignment */
+    justify-content: space-between; /* Space between items */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    padding: 8px 16px;
+    display: inline-block;
+    transition: background-color 0.3s; /* Add smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #575757; /* Darker hover effect */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc; /* Light border for input box */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-container button {
+    background-color: #007bff; /* Green button */
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.mycarousel img{
+    width: 100%;
+
+    height: 40vh;
+    object-fit: cover;
+}
+
+main {
+    padding: 20px;
+    background-color: #b0cdf4;
+}
+#special{
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366; /* Deep blue for footer */
+    color: white;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(28, 117, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #007bff; /* Border color matching header */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for the card title */
+}
+
+.card-description {
+    color: #555;
+}
+
+.card h3 {
+    color: #0056b3; /* Darker blue for section titles */
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(140, 199, 226);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #007bff; /* Border color matching header */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #3b1bc5; /* Blue color for the card title */
+}
+
+.card-description {
+    color: #555;
+}
+
+.card-about-us{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+}
+.card h3 {
+    color: #0056b3; /* Darker blue for section titles */
+}
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.feedback-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.feedback-form .btn {
+    background-color: #3b1bc5;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-form .btn:hover {
+    background-color: #905fe0;
+}
+.about-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 15px auto; /* center horizontally and add bottom space */
+    width: 120px;
+    height: auto;
+
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+    font-style: italic;
+    max-width: 1050px;
+    text-align: center;
+    margin: 0 auto;
+}
+.addrs-info {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .addrs-info h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .addrs-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .addrs-info li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    color: #333;
+  }
+  
+  .addrs-info li span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #0056b3;
+  }
+  
+  .addrs-info li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .addrs-info li a:hover {
+    text-decoration: underline;
+  }
+  
+  .addrs-info .gmap {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .addrs-info p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .food-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .food-card {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 260px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .food-card h3 {
+    color: #007bff;
+    margin: 10px 0 5px;
+  }
+  
+  .food-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .food-card .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .food-card .btn:hover {
+    background-color: #0056b3;
+  }
